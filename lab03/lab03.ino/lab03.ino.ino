@@ -11,10 +11,10 @@ void setup() {
 void loop() {
   for (int i = 0; i <= 255; i++) {
     ledcWrite(channel, i);
-    delay(10);
+    delay(20);
   }
   for (int i = 255; i >= 0; i--) {
     ledcWrite(channel, i);
-    delay(10);
+    delay(20);
   }
 }
